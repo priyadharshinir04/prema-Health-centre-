@@ -225,7 +225,7 @@ footer{background:#172f45;color:rgba(255,255,255,.72);padding:70px 0 0}
 .mob-menu a{font-size:1.22rem;font-weight:700;color:var(--text-dark);transition:var(--transition);font-family:var(--font-head)}
 .mob-menu a:hover{color:var(--teal)}
 .mob-close{position:absolute;top:22px;right:26px;font-size:1.5rem;cursor:pointer;color:var(--text-dark);background:none;border:none}
-#loader{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;overflow:hidden;background:linear-gradient(145deg,#f7fcfc 0%,#eaf7f8 48%,#fff 100%);z-index:99999;opacity:1;visibility:visible;transition:opacity .8s ease,visibility .8s ease}
+#loader{position:fixed;left:50%;top:50%;right:auto;bottom:auto;width:100%;height:100dvh;transform:translate(-50%,-50%);display:flex;align-items:center;justify-content:center;overflow:hidden;background:linear-gradient(145deg,#f7fcfc 0%,#eaf7f8 48%,#fff 100%);z-index:99999;opacity:1;visibility:visible;transition:opacity .8s ease,visibility .8s ease}
 #loader::before,#loader::after{content:"";position:absolute;border:1px solid rgba(22,133,158,.1);border-radius:50%;pointer-events:none}
 #loader::before{width:430px;height:430px;top:-250px;right:-180px;box-shadow:0 0 0 28px rgba(139,185,143,.045),0 0 0 56px rgba(22,133,158,.035)}
 #loader::after{width:280px;height:280px;bottom:-180px;left:-130px;background:rgba(139,185,143,.08);filter:blur(2px)}
@@ -252,6 +252,7 @@ footer{background:#172f45;color:rgba(255,255,255,.72);padding:70px 0 0}
   .loader-tagline{font-size:.61rem}
   .loader-message{max-width:270px;line-height:1.7}
   #loader::before{width:330px;height:330px}
+  .loader-content{transform:translateY(8vh)}
 }
 @media(prefers-reduced-motion:reduce){
   #loader,.loader-mark,.loader-brand,.loader-tagline,.loader-message,.loader-aura{animation:none;transition:none}
