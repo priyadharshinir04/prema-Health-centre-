@@ -24,7 +24,22 @@
 </head>
 <body>
 <!-- Loading screen and floating indicators -->
-<div id="loader"><div><div class="l-ring"></div><div class="l-text">PREMA CENTRE</div></div></div>
+<div id="loader" role="status" aria-label="Loading PREMA CENTRE">
+<div class="loader-aura"></div>
+<div class="loader-content">
+<div class="loader-mark" aria-hidden="true">
+<svg viewBox="0 0 100 100" focusable="false">
+<path class="mark-leaf" d="M51 76C28 71 17 54 22 26c26 2 43 16 42 38-1 6-5 10-13 12Z"/>
+<path class="mark-leaf mark-leaf-secondary" d="M51 76c22-5 33-22 28-50-18 2-31 9-37 23"/>
+<path class="mark-heart" d="M50 68C43 58 32 52 32 42c0-7 9-11 18-2 9-9 18-5 18 2 0 10-11 16-18 26Z"/>
+<path class="mark-vein" d="M51 75c-1-15-1-29-5-43"/>
+</svg>
+</div>
+<div class="loader-brand">PREMA CENTRE</div>
+<div class="loader-tagline">FOR WELLBEING</div>
+<div class="loader-message">Natural Healing <span aria-hidden="true">&bull;</span> Personalized Care <span aria-hidden="true">&bull;</span> Wellness</div>
+</div>
+</div>
 <div id="scroll-progress"></div>
 <button id="back-top" onclick="window.scrollTo({top:0,behavior:'smooth'})"><i class="fa-solid fa-arrow-up"></i></button>
 

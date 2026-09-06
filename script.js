@@ -1,6 +1,6 @@
 // Initialize animation library and page startup behavior.
 AOS.init({duration:700,once:true,easing:"ease-out-cubic",offset:60});
-window.addEventListener("load",function(){setTimeout(function(){document.getElementById("loader").classList.add("hidden");},700);});
+window.addEventListener("load",function(){setTimeout(function(){document.getElementById("loader").classList.add("hidden");},2800);});
 
 // Update scroll progress bar, nav state, and back-to-top button visibility.
 window.addEventListener("scroll",function(){
