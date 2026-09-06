@@ -252,7 +252,7 @@ footer{background:#172f45;color:rgba(255,255,255,.72);padding:70px 0 0}
   .loader-tagline{font-size:.61rem}
   .loader-message{max-width:270px;line-height:1.7}
   #loader::before{width:330px;height:330px}
-  .loader-content{transform:translateY(8vh)}
+  .loader-content{transform:none}
 }
 @media(prefers-reduced-motion:reduce){
   #loader,.loader-mark,.loader-brand,.loader-tagline,.loader-message,.loader-aura{animation:none;transition:none}
