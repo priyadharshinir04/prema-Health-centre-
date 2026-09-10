@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.premacentre.com/sitemap.xml
+Sitemap: https://prema-health-centre.pages.dev/sitemap.xml
